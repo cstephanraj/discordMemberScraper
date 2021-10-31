@@ -11,7 +11,7 @@ def get_input_details():
         token = data.split(',')[0].split('token:')[1].strip()
         guild_id = data.split(',')[1].split('guild_id:')[1].strip()
         channel_id = data.split(',')[2].split('channel_id:')[1].strip()
-#start here
+#here
 
 get_input_details()
 
